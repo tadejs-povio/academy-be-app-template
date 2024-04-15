@@ -1,5 +1,7 @@
 # Description
 
+This ia project template for a NestJS app, which will be built during the Povio BE Academy in May 2024.
+
 # Installation
 
 ```bash
