@@ -8,10 +8,8 @@ export class AuthAsyncCtx {
     return this._currentUser;
   }
 
-  async initFromJwtToken(userId: string) {
-    // const user = get user from db
-
-    // this._currentUser = user;
+  async init() {
+    //get user from db
 
     return this._currentUser;
   }
