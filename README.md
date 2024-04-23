@@ -8,6 +8,7 @@ This ia project template for a NestJS app, which will be built during the Povio 
 npm install
 
 # only before the very first run
+cp .env.local.yaml.example .env.local.yaml
 npx prisma generate
 npx ts-node -r tsconfig-paths/register ./src/vendor/prisma/utils/generate-env.util.ts
 ```
